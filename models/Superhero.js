@@ -23,5 +23,5 @@ const superheroSchema = new mongoose.Schema({
   },
 });
 
-const Superhero = mongoose.model('Superhero', superheroSchema);
+const Superhero = mongoose.model('Superhero', superheroSchema, 'superheroes');
 module.exports = Superhero;
